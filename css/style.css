@@ -1,0 +1,36 @@
+.container-fluid {
+    height: 100vh;
+    background-color: grey;
+}
+h2 {
+    color: white;
+}
+
+/* utility */
+.ms_mw {
+    min-width: 900px;
+}
+
+.ms_b {
+    border: 1px solid black;
+}
+
+.ms_container {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg_container {
+    border-radius: 20px;
+    background-color: turquoise;
+    padding: 15px;
+}
+/* ticket */
+.ticket {
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+
