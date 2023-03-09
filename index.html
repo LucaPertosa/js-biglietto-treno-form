@@ -10,7 +10,29 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
+    <!-- Form -->
+    <div>
+        <!-- Input-distance -->
+        <label for="distance">Km da percorrere</label>
+        <input type="number" id="distance">
+        <!-- /Input-distance -->
+        
+        <!-- Input-age -->
+        <label for="user-age">
+            Fascia d'età
+        </label>
+        <select name="age-range" id="user-age">
+            <option value=""></option>
+            <option value="min18">0 - 18</option>
+            <option value="normal">19 - 64</option>
+            <option value="over65">65 +</option>
+        </select>
+        <!-- /Input-age -->
+        
+        <button type="submit" id="submit-btn">Calcola</button>
+    </div>
+    <h1 id="result"></h1>
+    <h3 id="message"></h3>
     <!-- JS -->
     <script src="js/script.js"></script>
 </body>
